@@ -8,7 +8,7 @@ from model import DetNochange
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description='<<< Train DetNochange >>>')
+    parser = argparse.ArgumentParser(description='<<< DetNochange >>>')
 
     parser.add_argument('--gpu_id', type=str, default='0', help='Device # for DetNochange')
 
